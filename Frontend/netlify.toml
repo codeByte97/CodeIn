@@ -1,3 +1,5 @@
 [build]
-  command = "yarn install && yarn build" 
-  publish = "public" 
+  command = "yarn install && yarn build" # Your build command
+  publish = "public" # Your build output directory
+  functions = "built-lambda" # Your Netlify functions directory
+  node_version = "14"
